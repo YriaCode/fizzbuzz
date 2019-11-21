@@ -2,7 +2,8 @@
 function fizzbuzz(i){
 	let r
 	if (i % 5 ==0 && i % 3 ==0){
-		return "fizzbuzz";
+		r = "fizzbuzz";
+		return r;
 	}
 	 if (i % 5 == 0){
 		return "buzz";
